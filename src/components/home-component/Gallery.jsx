@@ -11,87 +11,94 @@ const Gallery = () => {
   const galleryData = [
     {
       id: 1,
-      src: "/images/school-1.jpg",
+      src: "/images/gallery/campus-1.webp",
       alt: "School Building",
       category: "Campus",
       title: "Main School Building"
     },
     {
       id: 2,
-      src: "/images/school-2.jpg",
+      src: "/images/gallery/sr-classroom.webp",
       alt: "Classroom",
       category: "Academics",
       title: "Modern Classrooms"
     },
     {
       id: 3,
-      src: "/images/school-3.jpg",
+      src: "/images/gallery/school-library.webp",
       alt: "Library",
       category: "Facilities",
       title: "School Library"
     },
     {
       id: 4,
-      src: "/images/school-4.jpg",
+      src: "/images/gallery/sports-complex.webp",
       alt: "Sports Field",
       category: "Sports",
       title: "Sports Complex"
     },
     {
       id: 5,
-      src: "/images/school-5.jpg",
+      src: "/images/gallery/science-lab-1.webp",
       alt: "Students in Lab",
       category: "Academics",
       title: "Science Laboratory"
     },
     {
       id: 6,
-      src: "/images/school-6.jpg",
+      src: "/images/gallery/childrens-play-ground.webp",
       alt: "Playground",
       category: "Sports",
       title: "Children's Playground"
     },
     {
       id: 7,
-      src: "/images/school-7.jpg",
+      src: "/images/gallery/activiti-1.webp",
       alt: "Art Room",
       category: "Activities",
-      title: "Art & Craft Room"
+      title: "Dance Performance"
     },
     {
       id: 8,
-      src: "/images/school-8.jpg",
+      src: "/images/gallery/cafeteria-1.ewbp.jpg",
       alt: "Cafeteria",
       category: "Facilities",
       title: "School Cafeteria"
     },
     {
       id: 9,
-      src: "/images/school-9.jpg",
+      src: "/images/gallery/computer-lab-1.webp",
       alt: "Computer Lab",
       category: "Academics",
       title: "Computer Laboratory"
     },
     {
       id: 10,
-      src: "/images/school-10.jpg",
+      src: "/images/gallery/activiti-2.webp",
       alt: "Music Room",
       category: "Activities",
       title: "Music Room"
     },
     {
       id: 11,
-      src: "/images/school-11.jpg",
+      src: "/images/gallery/auditorium.webp",
       alt: "Auditorium",
       category: "Facilities",
       title: "School Auditorium"
     },
     {
       id: 12,
-      src: "/images/school-12.jpg",
+      src: "/images/gallery/childrens-play-ground.webp",
       alt: "Garden",
       category: "Campus",
       title: "School Garden"
+    },
+    {
+      id: 2,
+      src: "/images/gallery/primary-classroom.webp",
+      alt: "Classroom",
+      category: "Academics",
+      title: "Primary Class"
     }
   ];
 
@@ -191,7 +198,7 @@ const Gallery = () => {
                 />
                 
                 {/* Overlay */}
-                <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-300 flex items-center justify-center">
+                <div className="absolute inset-0 bg-[#011943]/50 bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-300 flex items-center justify-center">
                   <div className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-center p-4">
                     <h3 className="font-semibold text-lg mb-1">{image.title}</h3>
                     <p className="text-sm text-gray-200">{image.category}</p>

@@ -4,9 +4,9 @@ import { Github, Linkedin, Twitter, Mail } from 'lucide-react';
 const Team = () => {
   const teamMembers = [
     {
-      name: "Team 1",
-      role: "Principal",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+      name: "Ms. Kannu Priya Sharma",
+      role: "Director and Founder",
+      image: "https://cdn2.iconfinder.com/data/icons/business-and-finance-related-hand-gestures/256/face_female_blank_user_avatar_mannequin-512.png",
       bio: "Educational leader with 15+ years in academic excellence",
       social: {
         linkedin: "#",
@@ -17,8 +17,8 @@ const Team = () => {
     },
     {
       name: "Team 2",
-      role: "Vice Principal",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+      role: "Principal",
+      image: "https://rapidapi.com/hub/_next/image?url=https%3A%2F%2Frapidapi-prod-apis.s3.amazonaws.com%2F0499ccca-a115-4e70-b4f3-1c1587d6de2b.png&w=3840&q=75",
       bio: "Dedicated administrator fostering student growth and success",
       social: {
         linkedin: "#",
@@ -27,23 +27,12 @@ const Team = () => {
         email: "marcus@greenviewschool.edu"
       }
     },
-    {
-      name: "team 3",
-      role: "Head of Arts Department",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
-      bio: "Creative educator inspiring artistic expression in students",
-      social: {
-        linkedin: "#",
-        twitter: "#",
-        github: "#",
-        email: "emma@greenviewschool.edu"
-      }
-    }
+
    
   ];
 
   return (
-    <section className="relative py-24 bg-gradient-to-br from-slate-900 via-teal-900 to-slate-900 overflow-hidden">
+    <section className="relative py-24 bg-gradient-to-br from-[#011943] via-[#103a83] to-[#011943] overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 w-full h-full">
         <div className="absolute top-0 -left-4 w-72 h-72 bg-teal-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse"></div>
@@ -64,7 +53,7 @@ const Team = () => {
         </div>
 
         {/* Team Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
           {teamMembers.map((member, index) => (
             <div
               key={index}
@@ -76,7 +65,7 @@ const Team = () => {
               <div className="relative z-10">
                 {/* Profile Image */}
                 <div className="relative mb-6">
-                  <div className="w-24 h-24 mx-auto rounded-full overflow-hidden ring-4 ring-white/30 group-hover:ring-teal-400/50 transition-all duration-500">
+                  <div className="w-24 h-24 mx-auto rounded-full overflow-hidden ring-4 ring-white/30 group-hover:[#011943]/50 transition-all duration-500">
                     <img
                       src={member.image}
                       alt={member.name}

@@ -4,13 +4,13 @@ import React from "react";
 function AboutUs() {
   return (
     <>
-      <div className="bg-gradient-to-t from-teal-0 to-teal-100 p-6 md:p-12 mt-5">
+      <div className="bg-gradient-to-t from-teal-0 to-teal-100 pt-10 md:p-12 mt-5 text-center md:text-start">
         <div className="max-w-7xl mx-auto">
           {/* Main Container */}
           <div className="rounded-3xl">
             <div className="flex flex-col lg:flex-row min-h-[600px]">
               {/* Left Content Section */}
-              <div className="flex-1 p-8 md:p-12 lg:p-16 flex flex-col">
+              <div className="flex-1 p-4 md:p-12 lg:p-16 flex flex-col">
                 {/* Title Section */}
                 <div className="mb-8">
                   <div className="">
@@ -40,7 +40,7 @@ function AboutUs() {
 
                 {/* Buttons Section */}
                 <div className="">
-                  <button className="flex-1 bg-gradient-to-r from-orange-400 to-orange-500 text-white font-semibold py-4 px-8 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105">
+                  <button className="flex-1 bg-gradient-to-r from-orange-400 to-orange-500 text-white font-semibold py-4 px-8 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105 mb-7 ">
                    Read More
                   </button>
                 </div>

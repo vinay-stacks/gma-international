@@ -1,6 +1,7 @@
 'use client'
 import AboutUs from "@/components/home-component/AboutUs";
 import CardFacility from "@/components/home-component/CardFacility";
+import DirectorMessage from "@/components/home-component/DirectorMessage";
 import Gallery from "@/components/home-component/Gallery";
 import HeroSlider from "@/components/home-component/HeroSlider";
 import Team from "@/components/home-component/Team";
@@ -11,6 +12,7 @@ export default function Page() {
   return (
     <>
       <HeroSlider /> 
+      <DirectorMessage />
       <CardFacility />
       <AboutUs />
       <WhyChooseGma />
