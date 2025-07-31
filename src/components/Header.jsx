@@ -189,6 +189,7 @@ const Header = () => {
                   <Image
                     src="/images/gma-web-logo.webp"
                     width={80}
+                    alt="logo"
                     height={90}
                     className="h-[80px] w-[70px] md:w-[90px] md:h-[100px]"
                   />

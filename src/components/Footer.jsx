@@ -10,6 +10,7 @@ import {
   Youtube,
   Send,
 } from "lucide-react";
+// import WhatsAPP from "./WhatsAPP";
 
 const Footer = () => {
   return (
@@ -19,13 +20,12 @@ const Footer = () => {
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="lg:col-span-1">
-            <div className="flex items-center mb-6">
+            <div className="flex items-center">
               <h3 className="text-xl font-semibold mb-6 relative">
                 About Us
                 <div className="absolute bottom-0 left-0 w-12 h-0.5 bg-[#ccbf76] -mb-3"></div>
               </h3>
             </div>
-
             <p className="text-gray-300 mb-6 leading-relaxed">
               We are many variations of passages available but the majority have
               suffered alteration in some form by injected humour words
@@ -258,10 +258,11 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
-
-      
+      </div>  
+ {/* whatsapp widget */}
+      {/* <WhatsAPP />    */}
     </footer>
+    
 
   );
 };

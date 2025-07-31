@@ -184,7 +184,7 @@ const Gallery = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
           {filteredImages.map((image, index) => (
             <div
-              key={image.id}
+              key={index}
               className="group relative overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer bg-white"
               onClick={() => openModal(image, index)}
             >
