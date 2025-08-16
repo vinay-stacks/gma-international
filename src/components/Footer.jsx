@@ -10,7 +10,7 @@ import {
   Youtube,
   Send,
 } from "lucide-react";
-// import WhatsAPP from "./WhatsAPP";
+
 
 const Footer = () => {
   return (
@@ -259,8 +259,7 @@ const Footer = () => {
           </div>
         </div>
       </div>  
- {/* whatsapp widget */}
-      {/* <WhatsAPP />    */}
+
     </footer>
     
 

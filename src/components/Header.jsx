@@ -17,6 +17,7 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 import { FaWhatsapp } from "react-icons/fa";
+import Link from "next/link";
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -54,7 +55,7 @@ const Header = () => {
   const navigationItems = [
     {
       name: "Home",
-      href: "#",
+      href: "/",
       icon: <BookOpen className="w-4 h-4" />,
     },
     {
@@ -90,6 +91,7 @@ const Header = () => {
       href: "#",
       hasDropdown: true,
       dropdownItems: [
+         { name: "Awards & Recognition", href: "#" },
         { name: "Academic Excellence", href: "#" },
         { name: "Sports Achievements", href: "#" },
         { name: "Cultural Awards", href: "#" },
@@ -133,8 +135,8 @@ const Header = () => {
       href: "#",
     },
     {
-      name: "Contact",
-      href: "#",
+      name: "Contact us",
+      href: "/contact-us",
     },
   ];
 
@@ -164,7 +166,7 @@ const Header = () => {
                     <marquee className="font-md text-white">
                       🎓 Admissions Open 2026! Limited Seats Available | 📚 New
                       AI & Robotics Programs | 🏆 Excellence in Education Since
-                      2010
+                      2015
                     </marquee>
                   </span>
                 </div>
@@ -183,6 +185,7 @@ const Header = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-2">
             {/* Logo Section */}
+            <Link href="/">
             <div className="flex items-center space-x-4">
               <div className="relative group">
                 <div className="">
@@ -200,11 +203,11 @@ const Header = () => {
                   GMA International School
                 </h1>
                 <p className="text-sm text-gray-600 font-medium">
-                  Excellence in Education<br/>Proposed to CBSE
+                  Nurturing Tomorrow In Caring Hands<br/>(Proposed to be CBSE)
                 </p>
               </div>
             </div>
-          
+          </Link>
             {/* Right Section */}
             <div className="flex items-center space-x-4">
               {/* Social Icons - Desktop only */}
@@ -239,12 +242,12 @@ const Header = () => {
                 </a>
               </div>
 
-              {/* Apply Now Button - Desktop */}
-              <button className="flex items-center space-x-2 bg-gradient-to-r from-emerald-500 to-teal-600 text-white px-4 py-2 sm:px-6 sm:py-3 rounded-full font-semibold hover:from-emerald-600 hover:to-teal-700 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 group text-sm sm:text-base">
+              {/* Apply Now Button - Desktop */}              
+              <Link href='/contact-us' className="flex items-center space-x-2 bg-gradient-to-r from-emerald-500 to-teal-600 text-white px-4 py-2 sm:px-6 sm:py-3 rounded-full font-semibold hover:from-emerald-600 hover:to-teal-700 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 group text-sm sm:text-base">
                 <span>APPLY NOW</span>
                 <div className="w-2 h-2 bg-white rounded-full group-hover:scale-125 transition-transform"></div>
-              </button>
-
+              </Link>
+              
               {/* Mobile Menu Toggle - Show on screens < 1200px */}
               <button
                 onClick={toggleMobileMenu}
@@ -362,7 +365,7 @@ const Header = () => {
           <div className="flex items-center justify-between mb-8 pb-6 border-b border-gray-200">
             <div className="flex items-center space-x-3">
               <div className="">
-                <Image src="/images/gma-web-logo.webp" width={60} height={70} />
+                <Image src="/images/gma-web-logo.webp" width={60} height={70} alt="gma-logo" />
               </div>
               <div>
                 <h2 className="text-lg font-bold bg-gradient-to-r from-teal-600 to-teal-600 bg-clip-text text-transparent">

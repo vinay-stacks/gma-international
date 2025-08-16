@@ -2,7 +2,7 @@
 import Header from "@/components/Header";
 import "./globals.css";
 import Footer from "@/components/Footer";
-// import WhatsAPP from "@/components/WhatsAPP";
+import WhatsAPP from "@/components/WhatsAPP";
 
 export const metadata = {
   title: "GMA International School",
@@ -13,10 +13,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-      {/* <WhatsAPP /> */}
         <Header />
         {children}
         <Footer />
+      <WhatsAPP />
      
       </body>
     </html>
