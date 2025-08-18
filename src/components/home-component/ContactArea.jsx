@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { useState } from "react";
 
 export default function ContactArea() {
@@ -42,8 +43,8 @@ export default function ContactArea() {
           <div className="flex-1 text-white space-y-8 lg:pr-12">
             {/* Navigation/Logo */}
             <div className="mb-12">
-              <div className="inline-flex items-center bg-yellow-400 bg-opacity-20 backdrop-blur-sm rounded-full px-4 py-2">
-                <span className="text-slate-900 font-medium">Get In Touch</span>
+              <div className="inline-flex items-center bg-gradient-to-r from-orange-400 to-orange-500 bg-opacity-20 backdrop-blur-sm rounded-full px-4 py-2">
+                <span className="text-white font-medium">Get In Touch</span>
               </div>
             </div>
 
@@ -65,7 +66,10 @@ export default function ContactArea() {
                   emphasizes personalized learning within a safe, inclusive
                   atmosphere
                 </p>
-              </div>
+              </div>              
+            </div>
+            <div className="delhi-branch-btn">
+              <Link href='https://granmothersarms.in/' target="_blank" className="bg-gradient-to-r from-orange-400 to-orange-500 py-3 px-5 rounded-full">Visit Our Delhi Branch</Link>
             </div>
           </div>
 

@@ -4,6 +4,7 @@ import Image from 'next/image'
 
 const DirectorMessage = () => {
   return (
+    <>
     <section className="bg-[#011943] text-white flex items-center justify-center px-4 py-16">
       <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Text Section */}
@@ -32,6 +33,7 @@ const DirectorMessage = () => {
         </div>
       </div>
     </section>
+    </>
   )
 }
 
