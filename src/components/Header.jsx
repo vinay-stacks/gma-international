@@ -91,7 +91,7 @@ const Header = () => {
       href: "#",
       hasDropdown: true,
       dropdownItems: [
-         { name: "Awards & Recognition", href: "#" },
+         { name: "Awards & Recognition", href: "/awards-recognition" },
         { name: "Academic Excellence", href: "#" },
         { name: "Sports Achievements", href: "#" },
         { name: "Cultural Awards", href: "#" },

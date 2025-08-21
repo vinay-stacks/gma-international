@@ -8,11 +8,12 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 const slides = [
-  { id: 1, url: "/images/hero-slider-1.webp", alt: "Slide 1" },
-  { id: 2, url: "/images/hero-slider-2.webp", alt: "Slide 2" },
-  { id: 3, url: "/images/hero-slider-5.webp", alt: "Slide 3" },
-  { id: 4, url: "/images/hero-2-2.webp", alt: "Slide 4" },
-  { id: 5, url: "/images/hero-3-3.webp", alt: "Slide 5" },
+  { id: 1, url: "/images/hero-slider-1-1.webp", alt: "Slide 1" },
+  { id: 2, url: "/images/hero-slider-1.webp", alt: "Slide 2" },
+  { id: 3, url: "/images/hero-slider-2.webp", alt: "Slide 3" },
+  { id: 4, url: "/images/hero-slider-5.webp", alt: "Slide 4" },
+  { id: 5, url: "/images/hero-2-2.webp", alt: "Slide 5" },
+  { id: 6, url: "/images/hero-3-3.webp", alt: "Slide 6" },
 ];
 
 const HeroSlider = () => {
