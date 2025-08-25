@@ -220,7 +220,7 @@ const Header = () => {
                   <Facebook className="w-4 h-4 text-white group-hover:scale-110 transition-transform" />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.instagram.com/gmainternational.dehradun/"
                   className="w-10 h-10 bg-gradient-to-r from-pink-500 to-rose-500 rounded-full flex items-center justify-center hover:shadow-lg transition-all duration-300 hover:scale-110 group"
                   aria-label="Instagram"
                 >
