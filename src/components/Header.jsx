@@ -214,6 +214,7 @@ const Header = () => {
               <div className="md:flex items-center space-x-2 hidden">
                 <a
                   href="#"
+                  target="_blank"
                   className="w-10 h-10 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full flex items-center justify-center hover:shadow-lg transition-all duration-300 hover:scale-110 group"
                   aria-label="Facebook"
                 >
